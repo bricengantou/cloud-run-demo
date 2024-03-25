@@ -6,6 +6,7 @@ WORKDIR /app
 
 # install app dependencies
 COPY package*.json  ./
+
 RUN yarn install
 
 # add app
